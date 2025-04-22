@@ -48,7 +48,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/counter-water-project.git
+git clone [https://github.com/yourusername/counter-water-project.git](https://github.com/Algo-james/counter-water)
 Upload the code to your microcontroller using the Arduino IDE or similar.
 
 (Optional) Launch the dashboard:
