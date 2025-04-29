@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<mename="viewport" content="width=device-width, initial-scale=1.0"></mename>
-
-<title>Sample Form</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Changes Everything</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<h2>Sample Form</h2>
-
-<form action="/submit_form.php" method="post">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br>
-  
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required><br>
-  
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-  
-  <input type="submit" value="Submit">
-</form>
-
+  <div class="container">
+    <div class="left-section">
+      <h4><span class="highlight">NO</span> WATER <span class="highlight">NO</span> LIFE</h4>
+      <h1>
+        WATER<br />
+        CHANGES<br />
+        EVERYTHING
+      </h1>
+      <div class="drop-icon"></div>
+      <button class="start-button" onclick="startPressed()">Press to start</button>
+    </div>
+    <div class="right-section">
+      <img src="7cdf54e6-d0ce-451d-9761-93fd29edcbf2.png" alt="Glass of water">
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
