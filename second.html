@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Intake Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <h4><span class="highlight">NO</span> WATER <span class="highlight">NO</span> LIFE</h4>
+      <h1>Calculate Your Daily Water Needs</h1>
+      <form id="water-form">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" required />
+        
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" required />
+        
+        <button type="submit" class="calculate-button">Calculate Water Intake</button>
+      </form>
+      <div id="result" class="result"></div>
+    </div>
+    
+    <div class="right-section">
+      <img src="https://www.pngitem.com/pimgs/m/604-6042239_glass-of-water-png-transparent-png.png" alt="Glass of water">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
