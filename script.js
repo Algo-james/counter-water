@@ -3,7 +3,7 @@ function startPressed() {
 }
 
 function navigateToCalculator() {
-  window.location.href = 'water-intake-calculator.html'; // Link to the second screen
+  window.location.href = 'second.html'; // Link to the second screen
 }
 
 document.getElementById('water-form').addEventListener('submit', function(event) {
