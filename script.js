@@ -5,6 +5,13 @@ function startPressed() {
 function navigateToCalculator() {
   window.location.href = 'second.html'; // Link to the second screen
 }
+function infos() {
+  aboutAccess(); 
+}
+
+function aboutAccess (){
+  window.location.href = 'about.html';
+}
 
 document.getElementById('water-form').addEventListener('submit', function(event) {
   event.preventDefault();
